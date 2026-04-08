@@ -655,3 +655,7 @@ CLI ビルド:
 ```powershell
 cargo build -p narou_rust_cli --release
 ```
+
+## License
+
+This project is licensed under the MIT License.
