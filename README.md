@@ -10,6 +10,10 @@
   Download • Update • Repair • Convert • EPUB
 </p>
 
+<p align="center">
+  Release target: <strong>v1.0.0</strong>
+</p>
+
 `narou_rust` は、Web 小説をダウンロードしてローカル保存し、必要に応じて EPUB まで生成できる Rust 製の CLI ツールです。
 
 現在は次のような用途を想定しています。
