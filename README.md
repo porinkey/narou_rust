@@ -89,7 +89,7 @@ CLI と対話モードに特化しています。
 ### 1. リポジトリを取得
 
 ```powershell
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/porinkey/narou_rust.git
 cd narou_rust
 ```
 
@@ -114,7 +114,7 @@ target\release\narou_rust_cli.exe
 ### 1. ビルド
 
 ```powershell
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/porinkey/narou_rust.git
 cd narou_rust
 cargo build -p narou_rust_cli --release
 ```
