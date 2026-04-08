@@ -1,0 +1,12 @@
+/target/
+/.narou/
+/小説データ/
+/bench_*/
+/tmp_*/
+/tmp_*.rs
+/tmp_*.html
+/tmp_*.txt
+/batch_download_*.txt
+*.log
+*.epub
+*.pdb

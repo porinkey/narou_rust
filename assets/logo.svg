@@ -1,0 +1,69 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card" x1="56" y1="32" x2="908" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10241E"/>
+      <stop offset="0.5" stop-color="#183A31"/>
+      <stop offset="1" stop-color="#255447"/>
+    </linearGradient>
+    <linearGradient id="portal" x1="90" y1="54" x2="346" y2="258" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE27A"/>
+      <stop offset="0.34" stop-color="#F6B244"/>
+      <stop offset="0.68" stop-color="#F47C48"/>
+      <stop offset="1" stop-color="#E44E83"/>
+    </linearGradient>
+    <linearGradient id="book" x1="126" y1="82" x2="286" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9E8"/>
+      <stop offset="0.45" stop-color="#F1E3BA"/>
+      <stop offset="1" stop-color="#DAB873"/>
+    </linearGradient>
+    <linearGradient id="bookEdge" x1="134" y1="88" x2="250" y2="234" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F5E6BF" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="960" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.08 0 0 0 0 0.06 0 0 0 0.28 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="320" rx="30" fill="#F3EEE6"/>
+
+  <g filter="url(#shadow)">
+    <rect x="42" y="34" width="876" height="252" rx="30" fill="url(#card)"/>
+  </g>
+
+  <ellipse cx="210" cy="160" rx="138" ry="96" fill="url(#portal)" opacity="0.96"/>
+  <ellipse cx="210" cy="160" rx="106" ry="74" fill="#FFF8E8" opacity="0.12"/>
+  <path d="M118 230C160 212 200 207 240 214C266 218 289 228 312 242" stroke="#FFE19A" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <path d="M107 103C149 115 182 136 202 167" stroke="#FFD36B" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+  <path d="M286 96C251 108 222 129 204 157" stroke="#FF9E6C" stroke-width="5" stroke-linecap="round" opacity="0.52"/>
+
+  <g transform="translate(114 70)">
+    <path d="M30 34C30 18.536 42.536 6 58 6H146C155.6 6 164.597 10.65 170.153 18.48L193 50.67V178C193 194.569 179.569 208 163 208H58C42.536 208 30 195.464 30 180V34Z" fill="url(#book)"/>
+    <path d="M170.153 18.48L193 50.67H168C157.507 50.67 149 42.163 149 31.67V6C157.325 6 165.339 10.012 170.153 18.48Z" fill="#E8CA83"/>
+    <path d="M56 22H142C155.255 22 166 32.7452 166 46V184C166 187.314 163.314 190 160 190H59C55.6863 190 53 187.314 53 184V25C53 23.3431 54.3431 22 56 22Z" fill="url(#bookEdge)" fill-opacity="0.28"/>
+    <path d="M52 53C73 44 90 44 111 53C132 62 149 62 170 53V186C149 195 132 195 111 186C90 177 73 177 52 186V53Z" fill="#FFF9EB" fill-opacity="0.12"/>
+    <path d="M111 34V188" stroke="#C79C4A" stroke-width="4.5" opacity="0.7"/>
+    <path d="M66 66H97" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M125 66H156" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M66 88H97" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M125 88H156" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M66 110H97" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M125 110H156" stroke="#C29443" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M145 129C145 147.225 130.225 162 112 162C93.7746 162 79 147.225 79 129C79 110.775 93.7746 96 112 96C130.225 96 145 110.775 145 129Z" fill="#174137" fill-opacity="0.9"/>
+    <path d="M112 108L118.447 121.065L132.867 123.16L122.433 133.33L124.895 147.693L112 140.915L99.1049 147.693L101.567 133.33L91.1332 123.16L105.553 121.065L112 108Z" fill="#FFE27A"/>
+    <path d="M64 147C80 139 93 139 109 147" stroke="#D7B066" stroke-width="4" stroke-linecap="round"/>
+    <path d="M116 147C132 139 145 139 161 147" stroke="#D7B066" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="350" y="116" fill="#F7F3EA" font-family="Segoe UI, Yu Gothic UI, Meiryo, sans-serif" font-size="58" font-weight="800" letter-spacing="1.2">narou_rust</text>
+  <text x="352" y="160" fill="#D8F3DC" font-family="Segoe UI, Yu Gothic UI, Meiryo, sans-serif" font-size="21" font-weight="700">Fast CLI downloader and EPUB builder</text>
+  <text x="352" y="194" fill="#D8F3DC" font-family="Segoe UI, Yu Gothic UI, Meiryo, sans-serif" font-size="21" font-weight="700">for web novels</text>
+  <text x="352" y="236" fill="#F4EDE2" font-family="Segoe UI, Yu Gothic UI, Meiryo, sans-serif" font-size="18" font-weight="500">Save stories locally, rebuild EPUB, and keep your library tidy.</text>
+</svg>
